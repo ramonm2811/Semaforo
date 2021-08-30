@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
-const Home = () => {
+const TrafficLight = () => {
 	const [selectedColor, setSelectedColor] = useState("red");
 
 	return (
@@ -44,4 +44,4 @@ const Home = () => {
 	);
 };
 
-export default Home;
+export default TrafficLight;
