@@ -11,3 +11,52 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+  }
+  
+  .contenedor {
+    display: flex;
+    justify-content: center;
+  }
+  .palito {
+    height: 120px;
+    width: 16px;
+    background-color: black;
+  }
+  
+  .cuerpo {
+    height: 305px;
+    width: 150px;
+    background-color: black;
+    border-radius: 20px;
+  }
+  
+  .luz {
+    height: 95px;
+    width: 95px;
+    border-radius: 100%;
+    margin-top: 5px;
+  }
+  
+  .luzRojo {
+    background-color: red;
+  }
+  
+  .luzAmarilla {
+    background-color: yellow;
+  }
+  
+  .luzVerde {
+    background-color: green;
+  }
+  
+  .glow{
+    box-shadow: 0px 0px 9px 4px #747DE8;
+  }
